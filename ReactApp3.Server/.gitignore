@@ -1,0 +1,14 @@
+# Node dependencies
+node_modules
+
+# Environment variables
+.env
+
+# ASP.NET Core build artifacts
+bin/
+obj/
+
+# Sensitive data
+appsettings.json
+# Ignore Visual Studio folder
+.vs/

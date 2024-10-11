@@ -1,0 +1,86 @@
+﻿/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Container */
+.container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Input fields */
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+    button:hover {
+        background-color: #4cae4c;
+    }
+
+    button.secondary {
+        background-color: #f0ad4e;
+    }
+
+        button.secondary:hover {
+            background-color: #ec971f;
+        }
+
+    /* Links */
+    button.link {
+        background-color: transparent;
+        color: #337ab7;
+        border: none;
+        font-size: 14px;
+        padding: 0;
+        margin-top: 10px;
+        text-decoration: underline;
+    }
+
+        button.link:hover {
+            text-decoration: none;
+        }
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+/* Alignment for input and buttons */
+input, button {
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+### Login API
+POST https://localhost:7004/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "testpassword"
+}
