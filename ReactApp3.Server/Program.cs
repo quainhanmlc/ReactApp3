@@ -47,6 +47,17 @@ builder.Services.AddSingleton<UserService>(sp =>
 builder.Services.Configure<BrevoSettings>(builder.Configuration.GetSection("BrevoSettings"));
 builder.Services.AddTransient<EmailService>();
 
+builder.Services.AddSingleton<TeamService>(sp =>
+{
+    var database = sp.GetRequiredService<IMongoDatabase>();
+    return new TeamService(database);
+});
+builder.Services.AddSingleton<ProjectService>(sp =>
+{
+    var database = sp.GetRequiredService<IMongoDatabase>();
+    return new ProjectService(database);
+});
+
 // Đăng ký JwtHelper
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
 builder.Services.AddSingleton<JwtHelper>();

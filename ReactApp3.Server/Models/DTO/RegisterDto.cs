@@ -1,4 +1,4 @@
-﻿namespace ReactApp3.Server.Models
+﻿namespace ReactApp3.Server.Models.DTO
 {
     public class RegisterDto
     {

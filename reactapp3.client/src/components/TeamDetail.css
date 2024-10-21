@@ -1,0 +1,42 @@
+.team-detail-container {
+    width: 50%;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+    .team-detail-container h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #28a745;
+    }
+
+    .team-detail-container input,
+    .team-detail-container textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+    }
+
+    .team-detail-container button {
+        width: 100%;
+        padding: 15px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 18px;
+        margin-top: 10px;
+        transition: background-color 0.3s;
+    }
+
+        .team-detail-container button:hover {
+            background-color: #218838;
+        }

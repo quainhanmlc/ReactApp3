@@ -20,7 +20,7 @@ function ResetPassword() {
     };
 
     return (
-        <div>
+        <div className="form-container">
             <h1>Reset Password</h1>
             <form onSubmit={handleResetPassword}>
                 <input

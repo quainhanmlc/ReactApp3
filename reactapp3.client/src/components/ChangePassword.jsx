@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import api from '../utils/api'; // Import API
 
+
 function ChangePassword() {
     const [currentPassword, setCurrentPassword] = useState('');
     const [newPassword, setNewPassword] = useState('');
@@ -21,7 +22,7 @@ function ChangePassword() {
     };
 
     return (
-        <div>
+        <div className="form-container">
             <h1>Change Password</h1>
             <form onSubmit={handleChangePassword}>
                 <input
